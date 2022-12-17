@@ -1,0 +1,91 @@
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Random User</title>
+
+    <style>
+
+      #display{
+        display: flex;
+        margin-left: 470px;
+        grid-template-columns: 3fr, 1fr;;
+      }
+
+      h1{
+        margin: 250px;
+        display: flex;
+        
+      }
+
+      #button{
+        margin-top: 40px;
+
+
+        
+      }  
+
+      img {
+        border-radius: 10%;
+         width:100px
+}
+
+   
+    </style>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body >
+    <h1> This website will provide you random User </h1>
+
+   
+
+     
+<section id="display" class="add-div row-cols-1 row-cols-md-3  ">
+
+  <div id="user-info"  class="card" style="width: 20rem; ">
+
+
+    <!-- <img src="my-pic.jpg" class="card-img-top" alt="...">
+   <div class="card-body">
+     <h5 class="card-title">Card title</h5>
+        <p class="card-text">
+            Name: <br>
+            Address: <br>
+            Email: <br>
+            Location: <br>
+            Number: <br>
+        </p>
+    
+      <a href="#" class="btn btn-primary">Go somewhere</a> -->
+
+
+  </div>
+
+
+</section>
+
+
+ 
+
+
+    
+
+    <section>
+      <div id="button" class="d-grid gap-2 col-6 mx-auto">
+        <button  onclick="displayData()"   class="btn btn-primary" type="button"> Click To Find Your Friend </button>
+       
+      </div>
+    </section>
+  
+  
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <script src="random-user.js"></script>
+  </body>
+</html>
