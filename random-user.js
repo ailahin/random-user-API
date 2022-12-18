@@ -20,7 +20,7 @@ DisplayUser=(users)=>{
         <div id="user-info" "row-cols-md-3"  >
         <img src=" ${info.picture.large}" class="card-img-top rounded-circle " alt="">
        <div class="card-body">
-         <h5 class="card-title">Hey, How you doing. Is it easy for you to find me, isn't it?</h5>
+         <h5 class="card-title">Hey, How you doing. It is easy for you to find me, isn't it?</h5>
             <p class="card-text">
                 Name: ${info.name.first} ${info.name.last}  <br>
                 Age: ${info.dob.age} <br>
